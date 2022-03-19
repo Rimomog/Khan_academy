@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear{
+    clear: both;
+}
+
+input[type=text]{
+    background: #ebe6e6;
+    border: 1px solid #ebe6e6;
+    border-radius: 3px;
+    padding: 4px;
+    color: rgb(40, 107, 252);
+}
+
+::placeholder{
+   color: rgb(40, 107, 252);
+   font-size: 18px;
+}
+
+nav li{
+    color: rgb(40, 107, 252);
+    float: left;
+    list-style-type: none;
+    margin: 24px 48px;
+}
+
+nav li:last-of-type{
+    margin-left: 96px;
+}
+nav{
+    border-bottom: 2px solid #b4afaf;
+    height: 70px;
+}
+
+nav a{
+    color: rgb(40, 107, 252);
+    margin: 0 16px;
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+    height: 25px;
+}
+
+.log{
+    margin: 0 4px;
+    float: left;
+    color: #000;
+    font-weight: bold;
+    font-size: 24px;
+    position: relative;
+}
+
+nav li select{
+    background-color: #fff;
+    border: none;
+    color: rgb(40, 107, 252);;
+}
+
+/*
+===========================
+Home section
+===========================
+*/
+.primary-body{
+    height: 500px;
+    float: left;
+    position: absolute;
+    top: 20%;
+    left: 200px;
+}
+
+.middle{
+    float: left;
+    margin-left: 24px;
+}
+
+.middle img{
+    width: 500px;
+    height: 500px;
+}
+.info{
+    margin-top: 96px;
+}
+
+.info h1{
+    font-size: 40px;
+}
+.info li{
+    float: left;
+    list-style-type: none;
+    margin: 0 4px;
+}
+
+.info a{
+    text-decoration: none;
+    border: 1px solid rgb(40, 107, 252);
+    border-radius: 5px;
+    background-color: rgb(40, 107, 252);
+    color: #fff;
+    padding: 8px 16px;
+}
